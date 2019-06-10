@@ -1,0 +1,7 @@
+{
+  "docs": {
+    "Introduction": ["motivation", "how-it-works"],
+    "Getting Started": ["getting-started/installation", "getting-started/setup", "getting-started/running-the-project"],
+    "Functions": ["functions/creating-a-function"]
+  }
+}
