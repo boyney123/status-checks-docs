@@ -16,7 +16,7 @@ const siteConfig = {
 		secondaryColor: "#008DF9"
 	},
 	customDocsPath: "docs",
-	// gaTrackingId: "UA-131821931-1",
+	gaTrackingId: "UA-126459538-5",
 	copyright: "David Boyne",
 
 	highlight: {
