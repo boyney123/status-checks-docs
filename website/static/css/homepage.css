@@ -509,6 +509,18 @@ li.github-star {
   .benefits p {
     font-size: 18px;
   }
+
+  .homepage h1 {
+    text-align: center;
+  }
+
+  .homepage .hero img {
+    margin-top: -25px;
+  }
+
+  .homepage .container {
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 650px) {
