@@ -4,33 +4,24 @@ title: Installation
 sidebar_label: Installation
 ---
 
-# Prerequisites
+#### Prerequisites
 
 - Node 8.10.0 or greater
 
 <hr/>
 
-### Overview
-
-You have two options to run this project:
-
-- [Cloning the project](#cloning-the-project)
-- [Running with Docker](#running-with-docker)
-
-<hr/>
-
-# Cloning the project
+#### Cloning the project
 
 ```sh
-git clone https://github.com/boyney123/mockit.git
+git clone https://github.com/boyney123/status-checks.git
 ```
 
-# Running with Docker
+_Install the dependencies_
 
-_TODO_
+```sh
+cd status-checks && npm install
+```
 
-<hr />
+#### Running the project
 
-# Running the project
-
-Before we can run the project we just need to setup a few things.
+Before running the project its worth [getting your Tokens and Secrets setup](/docs/getting-started/setup).

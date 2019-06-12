@@ -4,17 +4,15 @@ title: API
 sidebar_label: API
 ---
 
-API
-
 Every function you create has access to an API. This API will allow you run commands, integrate back with GitHub and more.
 
 > The API was designed to help you build functions. If you have any API requests or ideas please feel free to contribute.
 
 Every function will have the following in the parameters
 
-- octokit - object
-- runCommand - function
-- setDescription - function
+- [octokit](#octokit-object) - object
+- [runCommand](#runcommand-function) - function
+- [setDescription](#setdescription-function) - function
 
 Example:
 

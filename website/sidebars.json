@@ -2,6 +2,7 @@
   "docs": {
     "Introduction": ["motivation", "how-it-works"],
     "Getting Started": ["getting-started/installation", "getting-started/setup", "getting-started/debugging"],
-    "Functions": ["functions/creating-a-function", "functions/api"]
+    "Functions": ["functions/creating-a-function", "functions/api"],
+    "Contributing": ["contributing/contributing"]
   }
 }

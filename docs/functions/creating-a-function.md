@@ -8,6 +8,8 @@ Your status-checks are just functions, the application will handle the rest.
 
 Lets look at how you can add your first function.
 
+> Before you write your first function you might want to have a [look at how to get setup](/docs/getting-started/setup). The status-checks project requires API Token and webhook integration setup.
+
 ##### Adding a function
 
 First you will need to [clone the repository](/docs/getting-started/installation) if you haven't already.

@@ -4,14 +4,29 @@ title: How it works
 sidebar_label: How it works
 ---
 
-There is two main parts to this application the `runner` (GitHub integration) and your functions.
+`status-checks` project is split into two main parts, the `runner` and your `tasks`.
 
-The main idea is you write some custom functions and the `runner` knows how to handle the rest. The `runner` will go through each function and trigger it.
+#### The runner
 
-> Its worth nothing that your custom functions have to return a **Promise**. This allows the runner to handle async tasks.
+This is the core of the application. Ultimately tts job is to find and run your tasks.
 
-With every function you build you have access to an [octokit](https://github.com/octokit/rest.js) instance and also some custom API's to allow you do easily integrate with GitHub future if you wanted too.
+The runner also does a few other things:
 
-> Example: If you wanted to change the status check description as tasks happen, you can call the function `setDescription` which will update the description for you.
+- Checks out the sha of the pul request (this allows you to run any command in your project)
+- Creates its own status checks (gives you feedback on what the runner is doing with the pull-request itself)
+- Is responsible for the integration with GitHub
+- Creates [GitHub status checks](https://help.github.com/en/articles/about-status-checks) for each of your functions
 
-Once `status-checks` is running, you have to setup GitHub (webhooks) to post information to the application.
+> You will not have to do anything with the runner, all you have to do is provide the functions.
+
+#### Your functions
+
+You have to build and define your own functions. For each function a GitHub status check will be created. For example, in the screenshot below you can some GitHub status checks. Each status check is defined by a function.
+
+![Status Check Example](/img/pr-example.png "Status Check Example")
+
+With each function you define you have the ability to run custom scripts, integrate with GitHub thanks to [octokit](https://github.com/octokit/rest.js) and update your status checks on the fly.
+
+Your tasks will be defined within `src/tasks` and each task will have its own function and metadata file. If you want to know more about creating functions you [can read the documentation](/docs/functions/creating-a-function).
+
+Once the application is [setup](/docs/getting-started/setup) and you have defined your functions you are good to go. Start raising pull requests and watch your functions run.
