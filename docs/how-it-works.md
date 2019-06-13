@@ -12,7 +12,7 @@ This is the core of the application. Ultimately tts job is to find and run your 
 
 The runner also does a few other things:
 
-- Checks out the sha of the pul request (this allows you to run any command in your project)
+- Checks out the sha of the pull request (this allows you to run any command in your project)
 - Creates its own status checks (gives you feedback on what the runner is doing with the pull-request itself)
 - Is responsible for the integration with GitHub
 - Creates [GitHub status checks](https://help.github.com/en/articles/about-status-checks) for each of your functions
@@ -21,7 +21,7 @@ The runner also does a few other things:
 
 #### Your functions
 
-You have to build and define your own functions. For each function a GitHub status check will be created. For example, in the screenshot below you can some GitHub status checks. Each status check is defined by a function.
+You have to build and define your own functions. For each function a GitHub status check will be created. For example, in the screenshot below you can see some GitHub status checks. Each status check is defined by a function.
 
 ![Status Check Example](/img/pr-example.png "Status Check Example")
 
