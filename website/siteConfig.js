@@ -9,7 +9,7 @@ const siteConfig = {
   // End deploy options
   editUrl: "https://github.com/boyney123/status-checks-docs/tree/master/docs/",
   headerLinks: [{ doc: "motivation", label: "Docs" }, { href: "https://github.com/boyney123/status-checks", label: "GitHub" }],
-  headerIcon: "img/icons/logo-square-transparent.png",
+  headerIcon: "img/icons/apple-touch-icon.png",
   favicon: "img/icons/favicon-32x32.png",
   colors: {
     primaryColor: "#0e0c33",
