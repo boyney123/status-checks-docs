@@ -8,7 +8,7 @@ In the past I have spent a lot of time integrating with GitHub to improve projec
 
 In the past I would use third party libraries to integrate with GitHub or revisit the GitHub API to figure out how the status check API works.
 
-I wanted to create an easier way to integrate with GitHub statuses, and developer a small platform that allows developers to focus on the custom automation code rather than setting up the integration with GitHub itself.
+I wanted to create an easier way to integrate with GitHub statuses, and developed a small platform that allows developers to focus on the custom automation code rather than setting up the integration with GitHub itself.
 
 > [GitHub actions](https://github.com/features/actions) is another great way to integrate with your pull requests. I highly recommend checking them out too.
 
