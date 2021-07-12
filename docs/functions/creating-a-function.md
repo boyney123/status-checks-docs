@@ -49,7 +49,7 @@ Here we have an example function that will get run when a pull request is made.
 
 Your function will have an `options` parameter given to it. To understand what is in the `options` object please see the [API Docs](/docs/functions/api).
 
-With the API you are given you can run custom commands with `ocotokit` or even run any command in the repo.
+With the API you are given you can run custom commands with `octokit` or even run any command in the repo.
 
 Here is an example of running some npm tests.
 
